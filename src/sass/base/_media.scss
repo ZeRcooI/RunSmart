@@ -1,11 +1,35 @@
-@media (max-width: 834px) {
-  .container {
-    max-width: 760px;
+@media (max-width: 1025px) {
+  .consultation {
+    min-height: 640px;
+    padding: 80px 0;
   }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
 // Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
-@media (max-width: 768px) {
+@media (max-width: 836px) {
+  .container {
+    max-width: 760px;
+  }
+
+  .advantages {
+    padding: 70px 0;
+  }
+
+  .consultation {
+    padding: 70px 0;
+    min-height: 650px;
+    &__descr {
+      margin-top: 30px;
+    }
+  }
+
+  .feed-form {
+    margin-top: 35px;
+  }
+}
+// Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
+// Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
+@media (max-width: 769px) {
   .container {
     max-width: 700px;
   }
@@ -44,8 +68,8 @@
   }
 
   .advantages {
-    min-height: 400px;
-    padding-top: 60px;
+    min-height: 380px;
+    padding: 60px 0;
     &__icons {
       margin-top: 45px;
     }
@@ -68,10 +92,22 @@
       }
     }
   }
+
+  .consultation {
+    min-height: 650px;
+    padding: 60px 0;
+    &__descr {
+      margin-top: 40px;
+    }
+  }
+
+  .feed-form {
+    margin-top: 40px;
+  }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
 // Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .container {
     max-width: 360px;
   }
@@ -131,7 +167,7 @@
   }
 
   .advantages {
-    padding-top: 60px;
+    padding: 60px 0;
     &__icons {
       flex-direction: column;
       align-items: center;
@@ -152,10 +188,30 @@
       }
     }
   }
+
+  .consultation {
+    min-height: 650px;
+    padding: 60px 0;
+    &__descr {
+      font-size: 17px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  .title_left {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .feed-form {
+    margin: 0 auto;
+  }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
 // Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .container {
     max-width: 300px;
   }
@@ -222,7 +278,7 @@
   }
 
   .advantages {
-    padding-top: 50px;
+    padding: 50px 0;
     &__icons {
       flex-direction: column;
       align-items: center;
@@ -239,5 +295,20 @@
         font-size: 13px;
       }
     }
+  }
+
+  .consultation {
+    min-height: 650px;
+    padding: 50px 0;
+    &__descr {
+      margin-top: 25px;
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+  .title_left {
+    text-align: center;
+    font-size: 30px;
   }
 }
