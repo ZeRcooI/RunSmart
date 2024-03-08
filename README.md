@@ -6,6 +6,7 @@
 - Очередная практика Html и CSS
 - Практика с Bootstrap
 - Небольшая практика с Js
+- Изучен скрипт для табов
 
 ![Screenshot](https://github.com/ZeRcooI/RunSmart/blob/main/src/figma/Screenshot%201.jpg)
 
