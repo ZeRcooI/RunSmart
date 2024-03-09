@@ -311,4 +311,128 @@
     text-align: center;
     font-size: 30px;
   }
+
+  .carousel {
+    padding: 50px 0;
+    &__inner {
+      position: relative;
+      width: 250px;
+      margin: 0 auto;
+      img {
+        margin: 0 auto;
+        width: 200px;
+        height: 150px;
+      }
+    }
+
+    .slick-dots {
+      margin: 0 auto;
+      padding: 0;
+      list-style-type: none;
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      button {
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        border: 2px solid #d0d0d0;
+
+        &:hover {
+          box-shadow: 2px 2px 20px $main-color;
+          border: none;
+        }
+      }
+    }
+
+    .slick-active {
+      button {
+        border: none;
+        color: #fff;
+        background-color: $main-color;
+      }
+    }
+  }
+
+  .catalog {
+    padding-bottom: 50px;
+    &__tabs {
+      margin-top: 50px;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 0;
+      padding-left: 0;
+    }
+    &__tab {
+      width: 85px;
+      height: 50px;
+      border: 2px solid #d0d0d0;
+      font-size: 9px;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: center;
+      transform: skewX(-25deg);
+      margin: 0 5px;
+      cursor: pointer;
+      transition: 0.5s all;
+      &:hover {
+        box-shadow: 3px 3px 20px $main-color;
+        border: none;
+      }
+      div {
+        transform: skewX(24deg);
+      }
+      &_active {
+        color: #fff;
+        background-color: $main-color;
+        border: none;
+      }
+    }
+    &__content {
+      margin-top: 30px;
+      display: none;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      &_active {
+        display: flex;
+      }
+    }
+  }
+
+  .reviews {
+    padding-bottom: 30px;
+    &__title {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 30px;
+      text-align: center;
+      color: #0d0d0d;
+      padding-bottom: 30px;
+    }
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    &-item {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      min-height: 210px;
+      &__feedback {
+        width: 250px;
+        text-align: left;
+        &_descr {
+          font-weight: 300;
+          font-size: 13px;
+          line-height: 20px;
+          color: #0d0d0d;
+        }
+      }
+    }
+  }
 }
