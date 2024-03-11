@@ -3,6 +3,14 @@
     min-height: 640px;
     padding: 80px 0;
   }
+
+  .footer {
+    &__info {
+      padding: 30px 40px;
+      width: 400px;
+      height: 230px;
+    }
+  }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
 // Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
@@ -129,6 +137,14 @@
           line-height: 20px;
         }
       }
+    }
+  }
+
+  .footer {
+    &__info {
+      padding: 30px 40px;
+      width: 400px;
+      height: 230px;
     }
   }
 }
@@ -311,6 +327,21 @@
           line-height: 20px;
         }
       }
+    }
+  }
+
+  .footer {
+    &__info {
+      padding: 30px 40px;
+      width: 350px;
+      height: 190px;
+    }
+    &__addr {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+    &__phone {
+      margin-bottom: 20px;
     }
   }
 }
@@ -544,6 +575,29 @@
       }
     }
   }
+
+  .footer {
+    &__info {
+      padding: 15px 15px;
+      width: 350px;
+      height: 120px;
+    }
+    &__addr {
+      margin-bottom: 10px;
+      font-size: 13px;
+    }
+    &__phone {
+      margin-bottom: 10px;
+      font-size: 13px;
+    }
+    &__social-item {
+      width: 30px;
+      height: 30px;
+      img {
+        height: 16px;
+      }
+    }
+  }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
 // Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
@@ -768,6 +822,27 @@
           line-height: 20px;
           color: #0d0d0d;
         }
+      }
+    }
+  }
+
+  .footer {
+    &__info {
+      padding: 10px 10px;
+      width: 250px;
+      height: 100px;
+    }
+    &__addr {
+      margin-bottom: 5px;
+    }
+    &__phone {
+      margin-bottom: 7px;
+    }
+    &__social-item {
+      width: 25px;
+      height: 25px;
+      img {
+        height: 14px;
       }
     }
   }
