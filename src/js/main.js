@@ -64,4 +64,6 @@ $(document).ready(function () {
       $('.overlay, #order').fadeIn();
     });
   });
+
+  $('.feed-form').validate();
 });
