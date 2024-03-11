@@ -13,7 +13,6 @@
   }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
-// Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
 @media (max-width: 836px) {
   .container {
     max-width: 760px;
@@ -149,7 +148,6 @@
   }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
-// Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
 @media (max-width: 769px) {
   .container {
     max-width: 700px;
@@ -346,7 +344,6 @@
   }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
-// Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
 @media (max-width: 426px) {
   .container {
     max-width: 360px;
@@ -598,9 +595,32 @@
       }
     }
   }
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    min-height: 350px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    &__subtitle {
+      font-size: 14px;
+    }
+    &__descr {
+      font-size: 12px;
+    }
+  }
+
+  .feed-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+  }
 }
 // Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur, asperiores, sunt nostrum eaque incidunt harum distinctio necessitatibus fugit deleniti possimus fugiat ad voluptatem non similique. Voluptatum ut sit odio aliquam molestias obcaecati velit doloremque animi facere error dolore saepe cum amet delectus veritatis corporis perferendis deserunt a consequatur necessitatibus magni quos, adipisci reiciendis? Earum repellat officiis maiores dignissimos accusamus ipsa. At nostrum suscipit rerum expedita, modi fugiat hic sint ullam adipisci quasi tempora excepturi accusantium molestias laudantium accusamus ratione esse quibusdam iste placeat fuga reprehenderit blanditiis exercitationem! Quidem, et libero harum molestiae cumque incidunt fugit dignissimos similique quia necessitatibus.
-// Eaque placeat consequatur quae aliquam assumenda saepe unde cupiditate sint iure optio ipsam atque, eveniet quos itaque, modi aspernatur. Corrupti accusamus harum placeat, voluptas saepe animi tempore impedit aperiam obcaecati praesentium quaerat consequatur. Fugit nam dolores ab saepe inventore tempore. Nisi dolore asperiores molestiae sit voluptatum saepe ducimus similique amet? Quibusdam quisquam officiis est fuga iusto earum aliquam natus possimus sequi, aut eaque sapiente dolor corrupti adipisci similique voluptatum dolorum dolore corporis numquam aliquid sit minima? Veritatis ducimus hic ea possimus magni. Provident eum vel rerum reiciendis voluptas iure a nihil nam. Reprehenderit aliquam libero ducimus ut sit reiciendis rerum!
 @media (max-width: 376px) {
   .container {
     max-width: 300px;
@@ -845,5 +865,33 @@
         height: 14px;
       }
     }
+  }
+
+  .modal {
+    width: 260px;
+    min-height: 250px;
+    padding: 30px;
+    &__subtitle {
+      font-size: 12px;
+    }
+    &__descr {
+      font-size: 10px;
+    }
+  }
+
+  .feed-form {
+    margin-top: 20px;
+    width: 200px;
+    input {
+      height: 35px;
+      margin-bottom: 15px;
+      padding: 0 20px;
+      font-size: 12px;
+    }
+  }
+
+  .button_submit {
+    height: 35px;
+    font-size: 12px;
   }
 }
