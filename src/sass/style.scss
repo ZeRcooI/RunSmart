@@ -1,5 +1,8 @@
-@import 'blocks/main';
 @import 'base/variables';
+@import 'base/animations';
+@import 'base/media';
+
+@import 'blocks/main';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -12,5 +15,4 @@
 @import 'blocks/reviews';
 @import 'blocks/footer.scss';
 @import 'blocks/modal';
-
-@import 'base/media';
+@import 'blocks/pageup';

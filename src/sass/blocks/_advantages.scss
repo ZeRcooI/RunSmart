@@ -19,6 +19,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    &_animated {
+      animation: heartbeat 2.5s ease infinite;
+      // animation-name: heartbeat;
+      // animation-duration: 2s;
+      // animation-timing-function: ease;
+      // animation-iteration-count: infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
     img {
       display: block;
       width: 70px;
